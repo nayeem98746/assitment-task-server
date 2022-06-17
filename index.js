@@ -26,7 +26,7 @@ async function run() {
 
 
 
-
+// post api
         app.post('/contacts', async(req, res)=> {
             const products = req.body
             console.log('hit the api ' , products)
